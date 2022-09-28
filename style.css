@@ -45,3 +45,82 @@ p    {color: white;}
     text-decoration:none; 
     color: white;
 }
+
+#video_location {
+    position: relative;
+    top: 100px;
+}
+
+#table_location_1 {
+    position: relative;
+    top: 50px;
+}
+
+#table_location_2 {
+    position: relative;
+    top: 100px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: orange;
+}
+
+tr:nth-child(odd) {
+    background-color: black;
+}
+
+#burrow_header_location {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+}
+
+#chase_header_location {
+    position: relative;
+    top: 100px;
+}
+
+#home_page_text_block {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    color: black;
+}
+
+#list_location {
+    position: fixed;
+    top: 200px;
+    left: 35%;
+    color: black;
+    font-size: 20px;
+}
+
+#joe_news_title {
+    position: relative;
+    top: 40px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#chase_news_title {
+    position: relative;
+    top: 115px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
