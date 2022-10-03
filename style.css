@@ -27,12 +27,6 @@ p    {color: white;}
     bottom: 0;
 }
 
-#image_location_middle_left {
-    position: fixed;
-    left: 0;
-    bottom: 40%;
-}
-
 #nav {
     width:750px;
     margin:0 auto;
@@ -101,9 +95,9 @@ tr:nth-child(odd) {
 }
 
 #audio_player_location {
-    position: fixed;
-    left: 0;
-    bottom: 55%;
+    position: relative;
+    left: 0%;
+    bottom: 0%;
 }
 
 #home_page_text_block {
